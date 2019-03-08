@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Kat's Github Pages
+
+## GitHub Pages how-to
 
 You can use the [editor on GitHub](https://github.com/katstevens/katstevens.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
