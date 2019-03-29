@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Kat
 title: A typical Thursday
 ---
 
