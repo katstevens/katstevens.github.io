@@ -1,6 +1,8 @@
-# Hello world
+# Kat Stevens
 
-Let's see if this does the trick
+I'm a Python programmer who works at the Government Digital Service, and this is my blog.
 
-## testing out a h2
+## Recent stuff
+
+- [A blog about the mentoring scheme I help run at GDS](https://gds.blog.gov.uk/2019/03/08/learn-more-about-the-new-mentoring-scheme-from-the-gds-womens-network/)
 
