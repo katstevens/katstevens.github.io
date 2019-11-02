@@ -13,13 +13,19 @@ This is often a sticking point when writing web applications, where a view funct
 
 ## 2. The name reflects that thing
 
-Naming is hard, we all know that. My ideal function includes a verb in its name, that relates to what it's doing. For example, `convert_this_to_that()`, `validate_json_for_bad_stuff()` or `send_invite_email_to_new_user()`.
+Naming is hard, we all know that. My ideal function includes a verb in its name, that relates to what it's doing. For example: 
+
+```
+convert_this_to_that()
+validate_json_for_bad_stuff()
+send_invite_email_to_new_user()
+```
 
 For that last one, I could have written just plain old `send_email()`, but adding in what sort of email and who it's being sent to will help me debug it more quickly when my email server goes up the wazoo. It may lead to less [DRYness](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) in the long run, but I will take verbosity over confusion any day.
 
 Reiterating point 1, if a function name includes the word `and`, it's a candidate for either renaming, splitting in two, or ditching entirely. It's hard to design well-structured functions like this in the real world of legacy code and third-party depedencies, but remember this is my idealised dream scenario and I can do what I like. 
 
-(Unlike `and`, I think the word `or` is fine to include in a function name, for example Flask's   `get_object_or_404()`.) 
+(Unlike `and`, I think the word `or` is fine to include in a function name, for example Flask's `get_object_or_404()`.) 
 
 ## 3. The thing is non-trivial
 
@@ -37,10 +43,11 @@ def send_invite_email_to_new_user(email_address: str) -> None:
     validate_email_or_400(email_address)    
     send_email(email_address, template='new_user_invite')
 ```
+I'll leave it up to you to figure out what the return value annotation would be if the function returned the result of either `send_email` or `validate_email_or_400` :)
 
 I could delve deeper into type annotations but this blog post is long enough already. If you don't want to introduce type annotations, a simple docstring will do the job nicely.  
 
-## 5. It has sufficient` test coverage
+## 5. It has sufficient test coverage
 
 And by this I mean at least two tests! If your function doesn't need two or more tests, it's probably not important enough to be a function (see point 3). Expect more opinions on testing in future blogs!
 
