@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: Percentage of Caring
+tags: [code reviews]
 ---
 _It’s [National Blog Post Month](http://nablopomoguideunofficial.blogspot.com/)! Let’s see how many posts I can churn out in November..._
 
