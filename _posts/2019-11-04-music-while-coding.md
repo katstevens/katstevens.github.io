@@ -2,6 +2,7 @@
 layout: post
 title: Music while coding
 author: Kat
+tags: [music]
 ---
 Despite working in an open plan office, I don't tend to wear headphones at work much these days. This is partly because quite a big part of my job is talking to people, but mainly I am nosey and want to overhear conversations people are having around me. I especially want to overhear conversations where a colleague might be stuck on something, in case I can point them in the right direction (or save them 3 hours of digging around in the codebase). Earwigging is also useful if you know that someone's conversation is likely to end with the words 'let's ask Kat'.
 
