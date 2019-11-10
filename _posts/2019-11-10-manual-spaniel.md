@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: Manual Spaniel
+tags: [documentation]
 ---
 On an active project, technical documentation can go stale pretty quickly. Stuff gets iterated! Stuff gets upgraded! Throwaway chunks of code become key production features! Key production features get deleted once they are found to be not so key as originally thought!
 
