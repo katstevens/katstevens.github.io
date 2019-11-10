@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: Reading vs Reviewing
+tags: [code review]
 ---
 Our team produces on average a dozen pull requests a day, sometimes more if one change needs to be replicated across many apps. I try and read all of them. Yes, all of them.
 
