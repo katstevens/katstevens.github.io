@@ -2,6 +2,7 @@
 author: Kat
 layout: post
 title: Real-time Architecture Diagrams
+tags: [architecture]
 ---
 Last week I drew a large diagram of the Digital Marketplace's technical architecture on a whiteboard, for the benefit of some people outside the team (and some people relatively new to the team). It took me about 15 minutes to draw it, as we have a lot of components. At the end of the session I was asked, quite reasonably, if I could capture what I'd drawn and add it to our documentation. I think there was some surprise in the room when I said no! 
 
