@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: Scaling in swimming pools
+tags: [scaling]
 ---
 This week, [our platform was dealing with about 17 times the amount of traffic it normally gets](https://twitter.com/GOVUKdigimkt/status/1131228311684829184). We scaled up the number of apps powering the platform, and aside from the odd bumpy patch here and there, the site hung on and did its job. 
 
