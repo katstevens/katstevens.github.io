@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: Detective Pikachu
+tags: [naming things, debugging, pokemon, films]
 ---
 I don't make it out to the cinema very often these days, but I try to make an exception for films where Jason Statham blows something up, or where the film is a loose adaptation of a Nintendo game. [DETECTIVE PIKACHU (2019, dir. R. Letterman)](https://www.youtube.com/watch?v=bILE5BEyhdo) is a cracking example of the latter category, an adventure-mystery stuffed full of cute Pokemon which carries a stark warning against the dangers of mega-corporations meddling in science they do not fully understand.
 
