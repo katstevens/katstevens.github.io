@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: A typical Thursday
+tags: [yoghurt, work/life balance, documentation]
 ---
 
 The last month has been pretty busy for me - I've been on two teams, one of which has been launching a big project, and there's been a lot to do. A few weeks ago I tried to capture my day (in bullet point form!) to give people an idea of what being a Senior Developer is like, how much code I write, what my work/life balance is and so on. Spoiler: I don't do 2 hours of wellness yoga before my morning kombucha smoothie in order to keep looking this good.
