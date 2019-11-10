@@ -2,6 +2,7 @@
 author: Kat
 title: Meeting free afternoon
 layout: post
+tags: [music, work/life balance]
 ---
 I didn't write a blog post yesterday as I was busy celebrating the [Digital Marketplace](https://www.digitalmarketplace.service.gov.uk/) turning 5 with my team! I was quizmaster at our party, which meant I got to ask questions like "_How many disco balls do I keep on my desk?_"<sup>1</sup> and see if everyone has been paying attention. 
 
