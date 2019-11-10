@@ -2,6 +2,7 @@
 layout: post
 title: Coding vs Engineering
 author: Kat
+tags: [work/life balance, yoghurt]
 ---
 I mentioned yesterday that 'a big part of my job is talking to people'. So far this week I have done zero programming in terms of writing code. But I have been doing quite a lot of software engineering, in just 2 days! 
 
