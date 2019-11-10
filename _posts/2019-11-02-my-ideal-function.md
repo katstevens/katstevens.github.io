@@ -2,6 +2,7 @@
 layout: post
 author: Kat
 title: My Ideal Function
+tags: [Python, naming things]
 ---
 Us Python programmers are quite lucky, I think. We're allowed to do pretty much whatever we like with our functions, as long as there's a `def` at the top. But with great power comes great responsibility! I've seen some pretty rotten functions in my time, including ones I have written myself. What does my ideal function look like, then? Get ready for some Opinions!
 
