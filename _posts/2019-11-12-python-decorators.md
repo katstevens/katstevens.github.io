@@ -59,9 +59,9 @@ response, status_code = login_required(secret_page)
 
 When we call `login_required`, it’s actually returning the result of `view_func` (assuming we’re logged in, of course). `login_required` is acting as an outer protective shell, wrapping `secret_page` and bailing out with a 403 if it fails the login check. 
 
-`@app.route` doesn’t work as a wrapper in the same way as `@login_required` - Flask calls it when the app is initialised, to build its big list of available routes. 
+The `@app.route` decorator doesn’t work as a wrapper in quite the same way as `@login_required` - Flask calls it when the app is initialised, to build its big list of available routes.
 
-This is why it’s always placed above other custom decorators on a view. What would happen if the decorators were the other way around?
+This is why `@app.route` is always placed above other custom decorators on a view. What would happen if the decorators were the other way around?
 
 ## Ordering decorators
 
@@ -97,7 +97,7 @@ Our outermost layer is `login_required`: this is the name we’ll use to decorat
 
 `my_inner_func` is where any custom logic or checks will happen. It has access to `view_func` from the outer scope, and this example either returns the **result** of `view_func`, or an error.
 
-So having defined `@login_required` above, we know it returns a function definition. When we use it to decorate the `secret_page` view, we are wrapping that view definition with our decorator definition, without actually evaluating anything yet. Hurray!
+So having defined `@login_required` above, we know it returns a function definition. When we use it to decorate the `secret_page` view, we are wrapping that view definition with our decorator definition, without actually evaluating anything yet (unlike our 'flat' functions above). Hurray!
 
 A quick note about `@wraps`: it is a sanity-preserving, built-in helper (and yet another decorator!) that allows the innermost function (your original`secret_page` view) to bubble up seamlessly through all the layers without odd side effects. The [python docs](https://docs.python.org/3/library/functools.html#functools.wraps) have more info on how this works.
 
