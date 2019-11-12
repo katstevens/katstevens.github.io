@@ -13,7 +13,7 @@ Let’s imagine a scenario. I am ploughing through a big CSV file and I need to 
 I am going to start by writing something like this:
 
 ```
-if __name__ == ‘__main__’:  # blatantly had to look up the correct underscore syntax here
+if __name__ == '__main__':  # blatantly had to look up the correct underscore syntax here
     # Load the file
     # Initialise my stat-collecting data structure
     # For row in file do a thing
@@ -27,12 +27,12 @@ def load_file(filename):
     # some csv gubbins here
 
 def use_pokemon(row):
-    if ‘squirtle’ in row[‘name’]:
+    if 'squirtle' in row['name']:
         return 1  # My spreadsheet skills suck, OK?
     return 0
 
-if __name__ == ‘__main__’:  
-    rows = load_file(‘kanto_pokedex.csv’)
+if __name__ == '__main__':  
+    rows = load_file('kanto_pokedex.csv')
     running_total = 0
     for row in rows:
         running_total += use_pokemon(row)
@@ -49,28 +49,28 @@ def use_pokemon(row, health=100):
     health = battle(row)
     if health < 10:
         return swap_out_of_battle(
-            get_weaknesses(row, ‘fire’), 
-            get_strengths(row, ‘grass’)
+            get_weaknesses(row, 'fire'), 
+            get_strengths(row, 'grass')
         )        
     return victory(row)
 ```
 
-There is a lot going on now with ‘row’ - what’s happening in those functions? Is the data changing at any point? How much control do we need over the state of ‘row’?
+There is a lot going on now with `row` - what’s happening in those functions? Is the data changing at any point? How much control do we need over the state of `row`?
 
 A class might be useful here to keep track of what’s happening:
 
 ```
 class Pokemon:
     def __init__(self, row):
-        self._type = row[‘type’]
-        self._name = row[‘name’]
+        self._type = row['type']
+        self._name = row['name']
         self.in_ball = True
         self.in_battle = False
         self.health = 100
-        if ‘weaknesses’ in row:
-            self._weaknesses = [row[‘weaknesses’]]
-        if ‘strengths’ in row:
-            self._strengths = [row[‘strengths’]]
+        if 'weaknesses' in row:
+            self._weaknesses = [row['weaknesses']]
+        if 'strengths' in row:
+            self._strengths = [row['strengths']]
 
     def receive_critical_hit(self)
         self.health = self.health * 0.1
@@ -84,13 +84,13 @@ class Pokemon:
 And our script would look something more like this:
 
 ```
-if __name__ == ‘__main__’:  
-    rows = load_file(‘kanto_pokedex.csv’)
+if __name__ == '__main__':  
+    rows = load_file('kanto_pokedex.csv')
     running_total = 0
     for row in rows:
         pokemon = Pokemon(row)
         result = pokemon.battle()        
-        running_total += 1 if result == ‘win’ else 0
+        running_total += (1 if result == 'win' else 0)
 ```
 
 Here the separation between my data and my logic is clearer. My immutable data from `row` is safely stored as protected attributes of the class instance. My methods use that shared data, and can update mutable attributes like `self.health`.
