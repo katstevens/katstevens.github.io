@@ -4,6 +4,8 @@ title: Dijkstra's Shortest Path algorithm
 author: Kat
 tags: [actual computer science, algorithms]
 ---
+Cast your mind back a couple of decades...
+
 ## I tied an onion to my belt, it was the style at the time
 
 At university I was taught all manner of things that were completely irrelevant to my current job of building and maintaining modern web applications. Perhaps one day I will need to [interpolate a cubic spline](https://en.wikipedia.org/wiki/Spline_(mathematics)), but so far I have managed without them. [Pierre Bézier](https://en.wikipedia.org/wiki/Pierre_B%C3%A9zier) can rest easy.
