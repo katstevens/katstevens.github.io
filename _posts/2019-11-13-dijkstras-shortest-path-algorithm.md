@@ -51,4 +51,4 @@ A 'visit' isn't trivial though - it involves checking a node's unvisited neighbo
 
 We also have to maintain a suitable data structure to keep track of which nodes we have and haven't 'visited', and their current weightings. Luckily for us, if we use a fancy data structure like a [Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap) (or something appropriate to your data set), then it will be even more efficient! 
 
-The [wikipedia page](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) goes into more detail about what a 'visit' entails, and has a nice animated diagram. Go have a look!
+I'd love to write more but I'm out of time. The [wikipedia page](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) goes into more detail about what a 'visit' entails, and has a nice animated diagram. Go have a look!
