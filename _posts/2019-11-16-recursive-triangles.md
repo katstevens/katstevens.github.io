@@ -164,7 +164,7 @@ By splitting the problem into these three parts, I've kept the colour-picking lo
 This solution is limited by the recursion settings on my local installation of Python. If I try a scenario with a very long top row, I get this:
 
 ```
-def test_multi_row_triangle():
+def test_really_long_top_row_triangle():
     assert generate_triangle('R'*1000) == 'R'
 
 $ pytest
