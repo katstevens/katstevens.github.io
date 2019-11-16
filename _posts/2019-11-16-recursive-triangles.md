@@ -51,7 +51,7 @@ def pick_colour_below(left_parent, right_parent):
 ```
 
 Now we can add a test for the simple case, where our top row is 1 piece long. We know that should
-return the itself:
+return itself:
 
 ```
 @pytest.mark.parametrize('top_row', ['R', 'G', 'B'])
