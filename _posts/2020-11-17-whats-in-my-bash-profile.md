@@ -52,7 +52,7 @@ export AWS_PROFILE=sops
 
 ## Sources
 
-Every time you open a new terminal window, these lines will executing some random code that lives in a file somewhere. Insert screaming cat emoji here.
+Every time you open a new terminal window, these lines will execute some random code that lives in a file somewhere. Insert screaming cat emoji here.
  
 ```
 source ~/tools/git-completion.bash
