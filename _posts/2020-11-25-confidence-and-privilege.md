@@ -31,7 +31,7 @@ I wish a website like [Ask A Manager](https://www.askamanager.org/) had been aro
 
 ## ‘How did you get started in tech’
 
-After several months of sustained crappiness from the temp-then-permanent job, I ended up quitting with nothing lined up. That really did focus my mind when it came to job hunting! With help from friends, I decided to sharpen up my Python, JS and CSS skills, and have another go at making disgusting-looking websites for coin. 
+After several months of sustained crappiness from the temp-then-permanent job, I ended up quitting with nothing lined up. I was in a privileged position to be able to do this. That really did focus my mind when it came to job hunting! With help from friends, I decided to sharpen up my Python, JS and CSS skills, and have another go at making disgusting-looking websites for coin. 
 
 Miraculously, applying for a job I actually felt I could do, in an industry I was interested in, rather than ‘blindly applying to anything to escape from my current place’, got a result! WHO KNEW. The boost to my confidence (and bank account) was huge. I had done this all by myself! Or had I?
 
