@@ -5,8 +5,6 @@ layout: post
 tags: [feedback]
 ---
 
-# Giving difficult feedback
-
 In [my previous post on giving written feedback](https://katstevens.github.io/2020/11/03/giving-written-feedback.html), 
 I said that giving ‘difficult’ feedback deserved a blog post of its own. Here it is! 
 But read the other post first if you haven’t already, for some context.
