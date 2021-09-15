@@ -110,4 +110,6 @@ In summary:
 - Suggest concrete actions
 - Highlight the benefits to the recipient and the wider team
 
-Further reading: I definitely recommend the [Ask A Manager](https://www.askamanager.org/2020/08/mean-boss-and-feedback.html) archives here - Alison has some great posts on giving positive and constructive feedback.
+## Further reading
+
+I definitely recommend the [Ask A Manager](https://www.askamanager.org/2020/08/mean-boss-and-feedback.html) archives here - Alison has some great posts on giving positive and constructive feedback.
