@@ -112,4 +112,4 @@ In summary:
 
 ## Further reading
 
-I definitely recommend the [Ask A Manager](https://www.askamanager.org/2020/08/mean-boss-and-feedback.html) archives here - Alison has some great posts on giving positive and constructive feedback.
+I definitely recommend the [Ask A Manager](https://www.askamanager.org/2020/08/mean-boss-and-feedback.html) archives - Alison has some great posts on giving positive and constructive feedback.
