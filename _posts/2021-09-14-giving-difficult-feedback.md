@@ -101,7 +101,7 @@ Above all, remember [the Prime Directive](https://retrospectivewiki.org/index.ph
 > We understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, 
 > the resources available, and the situation at hand. 
 
-Give the recipient the benefit of the doubt. Assume that they want to improve, and your feedback should be designed to help them do that.
+Give the recipient the benefit of the doubt. Assume that they want to improve, and your feedback is part of a collaborative process between you, to help them do that. 
 
 In summary: 
 
@@ -110,3 +110,4 @@ In summary:
 - Suggest concrete actions
 - Highlight the benefits to the recipient and the wider team
 
+Further reading: I definitely recommend the [Ask A Manager](https://www.askamanager.org/2020/08/mean-boss-and-feedback.html) archives here - Alison has some great posts on giving positive and constructive feedback.
