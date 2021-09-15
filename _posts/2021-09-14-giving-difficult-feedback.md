@@ -95,12 +95,13 @@ This can reassure the recipient that no-one’s perfect, and they’re not the f
 
 ## The Prime Directive
 
+The tips above won't be suited to every scenario. In some cases they might even make things worse, so use your judgement.
 Above all, remember [the Prime Directive](https://retrospectivewiki.org/index.php?title=The_Prime_Directive):
 
 > We understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, 
 > the resources available, and the situation at hand. 
 
-Assume that the recipient wants to improve, and you're doing them a favour by highlighting something they've missed. 
+Give the recipient the benefit of the doubt. Assume that they want to improve, and your feedback should be designed to help them do that.
 
 In summary: 
 
