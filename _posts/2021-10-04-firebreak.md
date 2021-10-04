@@ -29,6 +29,8 @@ For various reasons we didn’t have a firebreak last quarter, so we’re gettin
 
 ## What have you been doing, Kat?
 
+![Bart Simpson pressing the button on the 'Only Who Can Prevent Forest Fires' animatronic bear](https://i.ytimg.com/vi/wX1x7pfH8fw/hqdefault.jpg)
+
 Historically I have been Bad At Firebreaks&trade;, sneakily finishing off pieces of work from the quarter, covering support, or getting a head start on planning the next one.
 Or I used the time to take annual leave, as I knew I wouldn't 'fall behind' that week (clearly nonsense). Often I simply couldn't think of a cool idea 😿.
 
