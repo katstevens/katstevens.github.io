@@ -113,3 +113,5 @@ In summary:
 ## Further reading
 
 I definitely recommend the [Ask A Manager](https://www.askamanager.org) archives - Alison has some great posts on giving [positive](https://www.askamanager.org/2011/05/new-manager-wonders-about-the-best-way-to-give-feedback.html) and [constructive feedback](https://www.askamanager.org/2020/08/mean-boss-and-feedback.html).
+
+Dan North's ["How To Make A Sandwich" talk from LeadDev](https://www.youtube.com/watch?v=P8sNSNkWFpc) is worth a watch too - the first half goes into the theory of feedback, and the second half (from around 16 mins onwards) gives some excellent practical advice.
