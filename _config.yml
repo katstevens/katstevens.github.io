@@ -1,5 +1,5 @@
 name: Kat Stevens
-theme: jekyll-theme-minimal
+remote_theme: daattali/beautiful-jekyll@6.0.1
 title: Kat Stevens
 description: I'm a software engineer who works at the Government Digital Service. All views are my own, but expect to hear more details on what music I'm listening to than what code I'm writing.
 url: https://katstevens.github.io
